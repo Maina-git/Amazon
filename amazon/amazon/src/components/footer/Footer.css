@@ -1,0 +1,116 @@
+.footer{
+    flex:100%;
+    height:auto;
+    background:black;
+}
+.footer .top{
+    height:50px;
+    display:flex;
+    width:100%;
+    justify-content:center;
+    place-items:center;
+    background:rgb(13, 13, 32);
+}
+.footer .top h1{
+    color:white;
+    font-size:15px;
+    text-align:center;
+    font-family:sans-serif;
+   
+}
+.footer .center{
+    display:flex;
+    justify-content:center;
+    background:rgb(41, 41, 71);
+    gap:10px;
+}
+.footer .center  .section{
+    margin:20px;
+    padding:20px 10px;
+} 
+
+.footer .center .section h1{
+    color:white;
+    font-size:20px;
+    font-family:sans-serif;
+    margin:10px 0;
+}
+.footer .center .section ul{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.footer .center .section ul li{
+    list-style:none;
+}
+
+.footer .center .section ul li a{
+    color:white;
+    font-family:sans-serif;
+    text-decoration:none;
+    font-size:15px;
+}
+.footer .center .section ul li a:hover{
+    color:rgb(180, 143, 21);
+}
+
+.footer .bottom{
+justify-content:center;
+place-items:center;
+height:80px;
+width:100%;
+border-top:1px solid grey;
+}
+.bottom img{
+    width:100px;
+}
+.privacy{
+    text-align:center;   
+}
+.privacy h3{
+    color:white;
+    font-size:12px;
+    font-family:sans-serif;
+    margin:10px 0;
+}
+.privacy h4{
+    color:white;
+    font-size:10px;
+    font-family:sans-serif;
+}
+
+@media screen and (max-width:650px){
+
+    .footer{
+        flex:100%;
+        height:auto;
+        background:black;
+    }
+    .footer .center{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        background:rgb(41, 41, 71);
+        gap:10px;
+    }
+    .footer .center .section h1{
+        color:white;
+        font-size:15px;
+        font-family:sans-serif;
+        margin:10px 0;
+    }
+
+    .footer .center .section ul li a{
+        color:white;
+        font-family:sans-serif;
+        text-decoration:none;
+        font-size:10px;
+    }
+
+
+    .bottom img{
+        width:50px;
+    }
+
+}
